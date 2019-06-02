@@ -10,7 +10,6 @@ class Config:
     def __init__(self):
         self.className   = 'Config'
 
-        #self.HOMEDIR ='C:\\Users\\ryyon\\Desktop\\workspace\\python\\Project01_MangaTengoku\\Scraping'
         self.HOMEDIR = os.getcwd()
         self.DATADIR =self.HOMEDIR + '\\data'
         self.IMGDIR  =self.DATADIR + '\\image'
