@@ -38,7 +38,6 @@ class MangaScraper:
         self.cfg         = Config.Config()        
 
         self.baseURL     = 'http://mangadld.com/?p='
-        #self.baseURL     = 'file:///C:/Users/ryyon/Desktop/workspace/python/Project01_MangaTengoku/ScrapingTest/testpage.html'
         self.sleepSec    = 0.01 #[sec]
 
         self.contents    = [] #Contentを入れ込む
